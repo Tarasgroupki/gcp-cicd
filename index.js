@@ -4,6 +4,6 @@
 //-----------------------------------------------------------------------------
 
 exports.helloWorld = (req, res) => {
-    const message="<font color='blue'>СloudFunction of Taras Kryvtsun!</font><br><b>App Version 1.2.4</b>";
+    const message="<font color='blue'>СloudFunction of Taras Kryvtsun!</font><br><b>App Version 1.3.1</b>";
     res.status(200).send(message);
 };
